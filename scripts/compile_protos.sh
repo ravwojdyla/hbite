@@ -34,6 +34,7 @@ done
 PROTO_OUT_DIR="${MY_DIR}/../hbite/protobuf"
 
 mkdir -p ${PROTO_OUT_DIR}
+touch ${PROTO_OUT_DIR}/__init__.py
 
 ${PROTOC_CMD} --proto_path=${PROTO_FILES_DIR} --python_out=${PROTO_OUT_DIR} ${PROTO_FILES}
 
