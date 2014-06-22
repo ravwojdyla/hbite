@@ -1,1 +1,2 @@
 protobuf-socket-rpc==1.3
+protobuf==2.5.0
