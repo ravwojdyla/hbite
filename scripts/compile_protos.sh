@@ -31,7 +31,7 @@ for file in ${PROTO_FILES}; do
 done
 
 # Compile protos
-PROTO_OUT_DIR="${MY_DIR}/../hbite/protobuf"
+PROTO_OUT_DIR="${MY_DIR}/../hbite/protos"
 
 mkdir -p ${PROTO_OUT_DIR}
 touch ${PROTO_OUT_DIR}/__init__.py
